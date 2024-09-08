@@ -1,0 +1,17 @@
+int main(){
+	int a,b;
+	scanf("%d%d",&a,&b);
+	int f0=0,f1=1;
+	if(a>=b || b<=0){
+		printf("ko thoa man");
+	}else{
+		while(f1<b ){
+		if(f1>a) printf("%d ",f1);
+		f = f0 + f1;
+		f0 = f1;
+		f1=f;
+		
+		}	
+	}
+	
+}
