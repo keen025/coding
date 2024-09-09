@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Doctor D.Dog</title>
+        <style>
+            body{
+                background-image: linear-gradient(#D3D1D1,white);
+                background-repeat: no-repeat;
+                font-style: normal;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .container{
+                width: 90%;
+                background-color: white;
+                margin: 0 auto;
+            }
+            .header h1{
+                margin-top: 0;
+            }
+            .title{
+                background-color: rgb(179, 232, 245);
+                color: rgb(0, 102, 255);
+                line-height: 40px;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .block{
+                padding: 10px;
+                position: relative;
+            }
+            .header{
+                padding: 10px;
+            }
+            .image{
+                position: absolute;
+                right: 10px;
+                top: 10px;
+                z-index: 1;
+            }
+            .style1{
+                color: rgb(7, 5, 128);
+                font-weight: bold;
+            }
+            .style2{
+                color: rgb(25, 75, 167);
+                font-weight: bold;
+            }
+            .tableinfor{
+                font-size: 20px;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Dog D.Dog</h1>
+            </div>
+            <div class="block">
+                <div class="title">About</div>
+                <div class="content">
+                    <p>Woof woof!</p>
+                    <p>Hi, I'm Dog. I love <b class="style2">User Interface Design.</b></p>
+                    <img src="cheems.jpg" alt="" class="image">
+                </div>
+            </div>
+            <div class="block" class="tableinfor">
+                <div class="title">Courses</div>
+                <div class="content">
+                    <p>Here are some courses I've taken:</p>
+                    <table border="1" width="450">
+                        <tr>
+                            <th>Course number</th>
+                            <th>Course title</th>
+                            <th>Semester Taken</th>
+                        </tr>
+                        <tr>
+                            <th colspan="3">For Credit</th>
+                            
+                        </tr>
+                        <tr>
+                            <td class="style1">6.813</td>
+                            <td class="style2">User Interface Design</td>
+                            <td class="style2">Spring 2014</td>
+                        </tr>
+                        <tr>
+                            <td class="style1">6.034</td>
+                            <td >Artificial Intelligence</td>
+                            <td>Fall 2013</td>
+                        </tr>
+                        <tr>
+                            <td class="style1">6.006</td>
+                            <td>Introduction to Algorithms</td>
+                            <td>Fall 2013</td>
+                        </tr>
+                        <tr>
+                            <th colspan="3">Listener</th>
+                            
+                        </tr>
+                        <tr>
+                            <td class="style2">6.867</td>
+                            <td>Machine Learning</td>
+                            <td>Fall 2013</td>
+                        </tr>
+                        <tr>
+                            <td class="style2">6.830</td>
+                            <td>Database Systems</td>
+                            <td>Fall 2012</td>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+            <div class="block">
+                <div class="title">Interests</div>
+                <div class="content">
+                    <p>I am interested <b>HCI,</b> memes, and youtube videos.</p>
+                </div>
+            </div>
+            <div class="block">
+                <div class="title">Submit Pet Information</div>
+                <div class="content">
+                    <p>Would love to know what kinds of pets you 'own' (you'll never own me). Submit below!</p>
+                    <form>
+                        <label for="Name">Name:</label>
+                        <input type="text"> <br>
+                        <label for="Phylum">Phylum:</label>
+                        <input type="text"> <br>
+                        <label for="Gender">Gender:</label>
+                        <input type="text"> <br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
